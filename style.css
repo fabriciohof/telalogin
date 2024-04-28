@@ -16,6 +16,14 @@ body{
 	background: #23242a;
 }
 
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    width: 80px; 
+    height: auto; 
+}
+
 .box{
 	position: relative;
 	width: 380px;
@@ -185,10 +193,16 @@ input[type="submit"]:hover{
 	color: #8f8f8f;
 	text-decoration: beige;
     text-align: center;
+	cursor: default;
 }
 
 #cadastrar:hover{
     color: lightblue;
+}
+
+#cadastrar span:hover {
+	color: #45f3ff;
+	cursor: pointer;
 }
 
 
@@ -232,4 +246,39 @@ body.dark-mode {
 	white-space: nowrap;
 	margin-top: 15px;
 	color: gray;
+}
+
+
+footer {
+    background: #1c1c1c;
+    padding: 8px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-content p {
+    color: #8f8f8f;
+    margin-bottom: 10px;
+}
+
+.footer-content p:last-child {
+    margin-bottom: 0;
+}
+
+.footer-content a {
+	color: #8f8f8f;
+	text-decoration: none;
+
+}
+
+.footer-content a:hover {
+	color: #45f3ff;
+	cursor: pointer;
 }
