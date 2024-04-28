@@ -190,3 +190,46 @@ input[type="submit"]:hover{
 #cadastrar:hover{
     color: lightblue;
 }
+
+
+
+.darkmodeBotao {
+    width: 80px;
+	height: 35px;
+	background-color: rgba(255, 255, 255, 0.541);
+	border: 5px solid transparent;
+	border-radius: 60px;
+	position: absolute;
+	z-index: 999;
+	top: 30px;
+	right: 30px;
+}
+
+
+.circle {
+    width:25px;
+    height:25px;
+    background-color: gray;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+	cursor: pointer;
+}
+
+.circle.moved {
+    transform: translateX(45px); 
+    transition: transform 0.3s ease; 
+	background-color: #45f3ff;
+}
+
+
+body.dark-mode {
+	background-color: beige;
+	color: #e0e0e0;
+}
+
+.darkmodeBotao span {
+    display: inline-block;
+	white-space: nowrap;
+	margin-top: 15px;
+	color: gray;
+}
